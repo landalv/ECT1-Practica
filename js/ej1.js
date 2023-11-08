@@ -26,6 +26,7 @@ class Jugador {
     }
 }
 
+//------------------------MAIN ----------------//
 let carlos = new Jugador("Carlos", ["Programador", "Electronico"], "DAW");
 let mj = new Jugador("MariaJosé", "Profesor", "DAW");
 console.log(carlos.toString());

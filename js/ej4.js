@@ -15,5 +15,5 @@ function jugadoresTop(array) {
     return new Array(array.filter((jugador) => jugador['puntuacion'] > 100));
 }
 
-//MAIN
+//------------------------MAIN ----------------//
 console.log(jugadoresTop(puntuaciones));

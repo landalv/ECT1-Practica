@@ -97,9 +97,11 @@ class PlantaCurativa extends Consumible {
     }
 }
 
-
+//------------------------MAIN ----------------//
+//creamos consimubles
 let manzana = new Consumible('Manzana');
 let alohe = new PlantaCurativa('alohe', 10);
+//creamos al jugador
 let ricardo = {
     nombre: 'Ricardo',
     potencia: 1,
@@ -109,15 +111,7 @@ let ricardo = {
         consumible.consumir(this);
     }
 }
+//hacemos que el juador consuma los consumibles.
 ricardo.consumir(manzana);
 ricardo.consumir(alohe);
 
-
-//MAIN
-/*let carlos = new Jugador("Carlos", ["Programador", "Electronico"], "DAW");
-let mj = new Jugador("MariaJosé", "Profesor", "DAW");
-console.log(carlos.toString());
-console.log(mj.toString());
-let examen = new Abominacion("ExamenT1", 100, 75);
-console.log(examen.toString());
-//examen.ataqueMultiple(carlos);*/

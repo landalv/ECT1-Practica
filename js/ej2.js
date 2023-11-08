@@ -59,11 +59,13 @@ class Jugador {
 }
 
 
-//MAIN
+//------------------------MAIN ----------------//
+//ceamos jugadores
 let carlos = new Jugador("Carlos", ["Programador", "Electronico"], "DAW");
 let mj = new Jugador("MariaJosé", "Profesor", "DAW");
 console.log(carlos.toString());
 console.log(mj.toString());
+//creamos Abominación
 let examen = new Abominacion("ExamenT1", 100, 75);
 console.log(examen.toString());
 examen.ataqueMultiple(carlos);
